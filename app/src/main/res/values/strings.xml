@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Accountrecord</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_account_register">AccountRegister</string>
+    <string name="main_activity_register">注册</string>
+    <string name="now_register">立即注册</string>
+    <string name="sms_register">短信注册</string>
+    <string name="phone_register">手机注册</string>
+    <string name="account_register">账号注册</string>
+
+    <string name="main_activity_login">登录</string>
+    <string name="message_register">短信登录</string>
+    <string name="now_login">立即登录</string>
+    <string name="account_login">账号登录</string>
+    <string name="phone_login">手机登录</string>
+    <string name="enter_game">进入游戏</string>
+    <string name="account_input_tips">请输入手机号/账号</string>
+    <string name="password_input_tips">请输入密码</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="had_account">已有账号</string>
+    <string name="sms_register_input_tips">请输入手机号</string>
+    <string name="sms_register_verify_tips">请输入验证码</string>
+    <string name="sms_register_verify_miss_tips">收不到验证码？</string>
+    <string name="get_message_code">获取验证码</string>
+    <string name="phone_binding">手机绑定</string>
+    <string name="now_binding">立即绑定</string>
+    <string name="register_success">注册成功</string>
+    <string name="find_password">密码找回</string>
+</resources>

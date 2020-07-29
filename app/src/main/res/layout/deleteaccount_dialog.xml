@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="180.89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/activity_background_white"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124.44dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23.11dp"
+                android:text="删除账号记录"
+                android:textColor="@color/activityTitle"
+                android:textSize="23.11dp"
+                android:layout_gravity="center"
+                />
+
+        <TextView
+            android:id="@+id/deleteaccount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认删除账号[XQ123456]"
+            android:layout_gravity="center"
+             android:textSize="18.67dp"
+            android:textColor="@color/activityTitle"
+            android:layout_marginTop="24dp"
+
+            />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.33dp"
+            android:background="@color/activityTextMainClor"
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+            <RelativeLayout
+                android:id="@+id/deleteaccount_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textSize="24dp"
+                    android:textColor="@color/smsedittextcolor"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="1.33dp"
+                android:layout_height="match_parent"
+                android:background="@color/activityTextMainClor"
+                ></View>
+
+            <RelativeLayout
+                android:id="@+id/deleteaccount_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textSize="24dp"
+                    android:textColor="@color/activityBlueButton"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
